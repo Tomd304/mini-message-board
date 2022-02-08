@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>
+    <%= title %>
+  </title>
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body>
+  <div class="msg-container">
+    <ul>
+      <% messages.forEach(msg=>{ %>
+        <li>
+          <%= msg.user + " says " + msg.text %>
+        </li>
+        <% }) %>
+    </ul>
+    <a href="/new">Send Message</a>
+  </div>
+
+</body>
+
+</html>

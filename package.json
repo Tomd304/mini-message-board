@@ -1,0 +1,22 @@
+{
+  "name": "mini-message-board",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "DEBUG=mini-message-board:* nodemon ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1"
+  },
+  "engines": { 
+    "node": "16.13.1" 
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
